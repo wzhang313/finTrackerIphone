@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		F50D45351AF57A2900D61200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D45341AF57A2900D61200 /* main.m */; };
 		F50D45381AF57A2900D61200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D45371AF57A2900D61200 /* AppDelegate.m */; };
-		F50D453B1AF57A2900D61200 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D453A1AF57A2900D61200 /* FirstViewController.m */; };
-		F50D453E1AF57A2900D61200 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D453D1AF57A2900D61200 /* SecondViewController.m */; };
 		F50D45411AF57A2900D61200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50D453F1AF57A2900D61200 /* Main.storyboard */; };
 		F50D45431AF57A2900D61200 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50D45421AF57A2900D61200 /* Images.xcassets */; };
 		F50D45461AF57A2900D61200 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50D45441AF57A2900D61200 /* LaunchScreen.xib */; };
 		F50D45521AF57A2900D61200 /* finTrackerIphoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D45511AF57A2900D61200 /* finTrackerIphoneTests.m */; };
+		F57C4DEB1AF65984009BC903 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C4DEA1AF65984009BC903 /* Transaction.m */; };
+		F57C4DEE1AF65D6D009BC903 /* TransactionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C4DED1AF65D6D009BC903 /* TransactionsTableViewController.m */; };
+		F57C4DF11AF674F8009BC903 /* TransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F57C4DF01AF674F8009BC903 /* TransactionTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +34,18 @@
 		F50D45341AF57A2900D61200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F50D45361AF57A2900D61200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F50D45371AF57A2900D61200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F50D45391AF57A2900D61200 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		F50D453A1AF57A2900D61200 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F50D453C1AF57A2900D61200 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F50D453D1AF57A2900D61200 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F50D45401AF57A2900D61200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F50D45421AF57A2900D61200 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F50D45451AF57A2900D61200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F50D454B1AF57A2900D61200 /* finTrackerIphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finTrackerIphoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50D45501AF57A2900D61200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F50D45511AF57A2900D61200 /* finTrackerIphoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = finTrackerIphoneTests.m; sourceTree = "<group>"; };
+		F57C4DE91AF65984009BC903 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		F57C4DEA1AF65984009BC903 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		F57C4DEC1AF65D6D009BC903 /* TransactionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsTableViewController.h; sourceTree = "<group>"; };
+		F57C4DED1AF65D6D009BC903 /* TransactionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsTableViewController.m; sourceTree = "<group>"; };
+		F57C4DEF1AF674F8009BC903 /* TransactionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionTableViewCell.h; sourceTree = "<group>"; };
+		F57C4DF01AF674F8009BC903 /* TransactionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +89,13 @@
 			children = (
 				F50D45361AF57A2900D61200 /* AppDelegate.h */,
 				F50D45371AF57A2900D61200 /* AppDelegate.m */,
-				F50D45391AF57A2900D61200 /* FirstViewController.h */,
-				F50D453A1AF57A2900D61200 /* FirstViewController.m */,
-				F50D453C1AF57A2900D61200 /* SecondViewController.h */,
-				F50D453D1AF57A2900D61200 /* SecondViewController.m */,
 				F50D453F1AF57A2900D61200 /* Main.storyboard */,
+				F57C4DEF1AF674F8009BC903 /* TransactionTableViewCell.h */,
+				F57C4DF01AF674F8009BC903 /* TransactionTableViewCell.m */,
+				F57C4DEC1AF65D6D009BC903 /* TransactionsTableViewController.h */,
+				F57C4DED1AF65D6D009BC903 /* TransactionsTableViewController.m */,
+				F57C4DE91AF65984009BC903 /* Transaction.h */,
+				F57C4DEA1AF65984009BC903 /* Transaction.m */,
 				F50D45421AF57A2900D61200 /* Images.xcassets */,
 				F50D45441AF57A2900D61200 /* LaunchScreen.xib */,
 				F50D45321AF57A2900D61200 /* Supporting Files */,
@@ -224,9 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F50D453E1AF57A2900D61200 /* SecondViewController.m in Sources */,
+				F57C4DF11AF674F8009BC903 /* TransactionTableViewCell.m in Sources */,
 				F50D45381AF57A2900D61200 /* AppDelegate.m in Sources */,
-				F50D453B1AF57A2900D61200 /* FirstViewController.m in Sources */,
+				F57C4DEE1AF65D6D009BC903 /* TransactionsTableViewController.m in Sources */,
+				F57C4DEB1AF65984009BC903 /* Transaction.m in Sources */,
 				F50D45351AF57A2900D61200 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +362,7 @@
 				INFOPLIST_FILE = finTrackerIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -366,6 +373,7 @@
 				INFOPLIST_FILE = finTrackerIphone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -422,6 +430,7 @@
 				F50D45571AF57A2900D61200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F50D45581AF57A2900D61200 /* Build configuration list for PBXNativeTarget "finTrackerIphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +439,7 @@
 				F50D455A1AF57A2900D61200 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
